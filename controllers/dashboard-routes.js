@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Post } = require('../config/models');
+const { Post } = require('../models');
 // TODO: Go to '../utils/auth' and complete middleware function
 const withAuth = require('../utils/auth');
 
