@@ -1,5 +1,5 @@
 const { Sequelize, Model, DataTypes } = require('sequelize');
-const sequelize = require('../config/config');
+const sequelize = require('.././config');
 
 class Post extends Model {}
 
@@ -37,8 +37,8 @@ user_id: {
 },
 
 
-{
-    Sequelize,
+  {
+    sequelize,
     timestamps: true,
     freezeTableName: true,
     underscored: true,
