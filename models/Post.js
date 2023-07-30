@@ -37,8 +37,8 @@ user_id: {
 },
 
 
-  {
-    sequelize,
+{
+    Sequelize,
     timestamps: true,
     freezeTableName: true,
     underscored: true,
