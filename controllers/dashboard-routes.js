@@ -17,7 +17,7 @@ const postData = await Post.findAll({
 const posts = postData.map((post) => post.get ({ plain: true}));
 console.log(postData);
 
-res.render("all=posts-admin", {
+res.render("all-posts-admin", {
   layout: "dashboard",
   posts,
 });
